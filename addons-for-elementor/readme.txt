@@ -7,7 +7,7 @@ Tags: elementor, elementor addons, elementor extensions, elementor widgets, page
 Requires at least: 5.8
 Tested up to: 6.4
 Requires PHP: 5.6
-Stable Tag: 8.3
+Stable Tag: 8.3.1
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -261,6 +261,9 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 
 
 
+
+= 8.3.1 =
+* Added - Validation of class attributes for animated text widget
 
 = 8.3 =
 * Freemius SDK update to 2.6.1
