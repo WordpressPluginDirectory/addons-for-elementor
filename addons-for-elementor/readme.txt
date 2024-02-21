@@ -7,7 +7,7 @@ Tags: elementor, elementor addons, elementor extensions, elementor widgets, page
 Requires at least: 5.8
 Tested up to: 6.4
 Requires PHP: 5.6
-Stable Tag: 8.3.2
+Stable Tag: 8.3.5
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -261,6 +261,13 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 
 
 
+
+= 8.3.4 =
+* Added - The decoding sync attribute on images so that isotope filters work well
+
+= 8.3.3 =
+* Added - Validation for custom classes for timeline, device slider and marquee text widgets
+* Freemius SDK update to 2.6.2
 
 = 8.3.2 =
 * Added - Validation of links for team member, services and social URLs

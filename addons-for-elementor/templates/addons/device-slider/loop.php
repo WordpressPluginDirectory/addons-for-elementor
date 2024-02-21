@@ -30,7 +30,7 @@ $custom_device = $settings['custom_device'];
 ?>
 
 <div <?php echo $dir; ?>
-        class="lae-device-slider lae-container <?php echo $settings['device_slider_class']; ?>"
+        class="lae-device-slider lae-container <?php echo esc_attr($settings['device_slider_class']); ?>"
         data-settings='<?php echo wp_json_encode($slider_options); ?>'>
 
     <div class="lae-device-image">

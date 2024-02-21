@@ -506,6 +506,7 @@ function lae_get_image_html(
             $image_attrs = array_merge( $image_attrs, array(
                 'data-no-lazy' => 1,
                 'loading'      => 'eager',
+                'decoding'     => 'sync',
             ) );
         }
         $image_html .= wp_get_attachment_image(
@@ -525,7 +526,7 @@ function lae_get_image_html(
         if ( !empty($image_src) ) {
             $lazy_load_attr = '';
             if ( $disable_lazy_load ) {
-                $lazy_load_attr = 'loading=eager data-no-lazy=1';
+                $lazy_load_attr = 'decoding="sync" loading="eager" data-no-lazy=1';
             }
             $image_class_html = ( !empty($image_class) ? ' class="' . $image_class . '"' : '' );
             

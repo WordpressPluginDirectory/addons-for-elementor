@@ -51,7 +51,7 @@ if ($settings['timeline_type'] == 'horizontal') {
 
 <div<?php echo $data_attr; ?><?php echo $dir; ?>
         id="lae-<?php echo $settings['timeline_type']; ?>-timeline-<?php echo $settings['slider_id']; ?>"
-        class="lae-<?php echo $settings['timeline_type']; ?>-timeline lae-container <?php echo $settings['timeline_class']; ?>">
+        class="lae-<?php echo $settings['timeline_type']; ?>-timeline lae-container <?php echo esc_attr($settings['timeline_class']); ?>">
 
     <?php foreach ($settings['timeline_items'] as $item): ?>
 
