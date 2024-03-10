@@ -230,11 +230,11 @@ function lae_get_grid_classes( $settings, $columns_field = 'per_line' )
         $grid_classes = ' lae-grid-auto-column-layout';
     } else {
         $grid_classes = ' lae-grid-desktop-';
-        $grid_classes .= $settings[$columns_field];
+        $grid_classes .= esc_attr( $settings[$columns_field] );
         $grid_classes .= ' lae-grid-tablet-';
-        $grid_classes .= $settings[$columns_field . '_tablet'];
+        $grid_classes .= esc_attr( $settings[$columns_field . '_tablet'] );
         $grid_classes .= ' lae-grid-mobile-';
-        $grid_classes .= $settings[$columns_field . '_mobile'];
+        $grid_classes .= esc_attr( $settings[$columns_field . '_mobile'] );
     }
     
     return apply_filters(

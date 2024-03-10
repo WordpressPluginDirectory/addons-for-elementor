@@ -13,7 +13,7 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 $args['thumbnail_items'] = '';
-$slider_style = $settings['slider_style'];
+$slider_style = esc_attr( $settings['slider_style'] );
 // Use the processed post selector query to find posts.
 $query_args = lae_build_query_args( $settings );
 $loop = new \WP_Query( $query_args );

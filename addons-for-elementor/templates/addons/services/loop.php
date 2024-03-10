@@ -53,7 +53,7 @@ endif;
 
 ?>
 
-<div<?php echo $dir; ?> class="lae-services lae-services-<?php echo $settings['style']; ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
+<div<?php echo $dir; ?> class="lae-services lae-services-<?php echo esc_attr($settings['style']); ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
 
     <?php foreach ($settings['services'] as $index => $service): ?>
 

@@ -17,7 +17,9 @@ if (!defined('ABSPATH')) {
 $class_attr = $data_attr = '';
 $dir = is_rtl() ? ' dir="rtl"' : '';
 
-if ($settings['style'] !== 'style4'):
+$widget_template = esc_attr($settings['style']);
+
+if ($widget_template !== 'style4'):
 
     if ($settings['layout'] == 'carousel') :
 
@@ -62,7 +64,7 @@ endif;
 ?>
 
 <div<?php echo $dir; ?>
-        class="lae-testimonials lae-testimonials-<?php echo $settings['style']; ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
+        class="lae-testimonials lae-testimonials-<?php echo $widget_template; ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
 
     <?php foreach ($settings['testimonials'] as $index => $testimonial): ?>
 
@@ -70,7 +72,7 @@ endif;
 
         <?php $args['testimonial'] = $testimonial; ?>
 
-        <?php lae_get_template_part("addons/testimonials/{$settings['style']}", $args); ?>
+        <?php lae_get_template_part("addons/testimonials/{$widget_template}", $args); ?>
 
     <?php endforeach; ?>
 

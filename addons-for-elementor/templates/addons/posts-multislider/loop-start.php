@@ -11,7 +11,7 @@ if (!defined('ABSPATH')) {
 
 $dir = is_rtl() ? ' dir="rtl"' : '';
 
-$slider_style = $settings['slider_style'];
+$slider_style = esc_attr($settings['slider_style']);
 
 $multislider_settings = [
     'arrows' => ('yes' === $settings['arrows']),
@@ -40,6 +40,6 @@ $multislider_settings = array_merge($multislider_settings, $responsive_settings)
 
 <div class="lae-posts-multislider-wrap">
     <div<?php echo is_rtl() ? ' dir="rtl"' : ''; ?>
-            id="lae-posts-multislider-<?php echo $settings['slider_id']; ?>"
+            id="lae-posts-multislider-<?php echo esc_attr($settings['slider_id']); ?>"
             class="lae-posts-multislider lae-container <?php echo 'lae-posts-multislider-' . $slider_style; ?>"
             data-settings='<?php echo wp_json_encode($multislider_settings); ?>'>

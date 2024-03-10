@@ -23,7 +23,7 @@ $animation_settings = [
     'splitType' => ($settings['split_type']),
 ];
 
-$container_class = 'lae-animated-text' . ' lae-align-' . $settings['text_alignment'] . ' ' . esc_attr($settings['animated_text_class']);
+$container_class = 'lae-animated-text' . ' lae-align-' . esc_attr($settings['text_alignment']) . ' ' . esc_attr($settings['animated_text_class']);
 
 ?>
 

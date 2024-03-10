@@ -23,7 +23,7 @@ $data_attr = ' data-settings=\'' . wp_json_encode($piechart_settings) . '\'';
 
 ?>
 
-<div class="lae-piecharts  lae-piecharts-<?php echo $settings['style'];  ?> lae-uber-grid-container <?php echo lae_get_grid_classes($settings); ?> " <?php echo $data_attr; ?>>
+<div class="lae-piecharts  lae-piecharts-<?php echo esc_attr($settings['style']);  ?> lae-uber-grid-container <?php echo lae_get_grid_classes($settings); ?> " <?php echo $data_attr; ?>>
 
     <?php foreach ($settings['piecharts'] as $piechart): ?>
 

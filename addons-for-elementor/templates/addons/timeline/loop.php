@@ -12,7 +12,7 @@ if (!defined('ABSPATH')) {
 
 ?>
 
-<div class="lae-<?php echo $settings['timeline_type']; ?>-timeline-wrap">
+<div class="lae-<?php echo esc_attr($settings['timeline_type']); ?>-timeline-wrap">
 
     <?php $args['settings'] = $settings; ?>
 

@@ -19,7 +19,9 @@ $dir = is_rtl() ? ' dir="rtl"' : '';
 
 $styles = array('style1', 'style6', 'style7', 'style8', 'style9');
 
-if (in_array($settings['style'], $styles)):
+$widget_template = esc_attr($settings['style']);
+
+if (in_array($widget_template, $styles)):
 
     if ($settings['layout'] == 'carousel') :
 
@@ -64,7 +66,7 @@ endif;
 ?>
 
 <div<?php echo $dir; ?>
-        class="lae-team-members lae-team-members-<?php echo $settings['style']; ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
+        class="lae-team-members lae-team-members-<?php echo $widget_template; ?> <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
 
     <?php foreach ($settings['team_members'] as $index => $team_member): ?>
 
@@ -72,7 +74,7 @@ endif;
 
         <?php $args['team_member'] = $team_member; ?>
 
-        <?php lae_get_template_part("addons/team-members/{$settings['style']}", $args); ?>
+        <?php lae_get_template_part("addons/team-members/{$widget_template}", $args); ?>
 
     <?php endforeach; ?>
 

@@ -40,5 +40,5 @@ $carousel_settings = array_merge($carousel_settings, $responsive_settings);
 
 <div<?php echo is_rtl() ? ' dir="rtl"' : ''; ?>
         id="lae-posts-carousel-<?php echo uniqid(); ?>"
-        class="lae-posts-carousel lae-container <?php echo 'lae-' . str_replace('_', '-', $settings['carousel_skin']); ?>"
+        class="lae-posts-carousel lae-container <?php echo 'lae-' . str_replace('_', '-', esc_attr($settings['carousel_skin'])); ?>"
         data-settings='<?php echo wp_json_encode($carousel_settings); ?>'>

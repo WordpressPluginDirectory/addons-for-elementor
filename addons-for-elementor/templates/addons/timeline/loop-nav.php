@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 ?>
 
 <div<?php echo is_rtl() ? ' dir="rtl"' : ''; ?>
-        id="lae-timeline-nav-<?php echo $settings['slider_id']; ?>"
+        id="lae-timeline-nav-<?php echo esc_attr($settings['slider_id']); ?>"
         class="lae-timeline-nav">
 
     <?php foreach ($settings['timeline_items'] as $item): ?>

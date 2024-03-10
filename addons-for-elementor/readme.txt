@@ -5,9 +5,9 @@ Donate link: https://livemeshelementor.com/
 Contributors: livemesh, elementoraddons, freemius
 Tags: elementor, elementor addons, elementor extensions, elementor widgets, page builder, woocommerce elementor, elementor ui kit
 Requires at least: 5.8
-Tested up to: 6.4
-Requires PHP: 5.6
-Stable Tag: 8.3.5
+Tested up to: 6.5
+Requires PHP: 5.8
+Stable Tag: 8.3.6
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -261,6 +261,9 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 
 
 
+
+= 8.3.6 =
+* Added - Escaping the style and template settings for sliders, posts grid, posts block, gallery, testimonials, services, team widgets for enhanced validation of user input.
 
 = 8.3.4 =
 * Added - The decoding sync attribute on images so that isotope filters work well
