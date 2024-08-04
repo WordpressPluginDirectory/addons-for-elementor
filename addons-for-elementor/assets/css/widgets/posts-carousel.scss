@@ -155,7 +155,7 @@
           color: #999;
 
           a {
-            @include transition(all 0.3s ease-in-out 0s);
+            transition: all 0.3s ease-in-out 0s;
             font-style: normal;
           }
 

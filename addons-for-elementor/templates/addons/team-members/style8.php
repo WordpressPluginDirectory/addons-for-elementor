@@ -49,7 +49,7 @@ if (!empty($team_member['member_link']['url'])) {
 
     <a href="#<?php echo $member_uid; ?>" class="lae-popup-trigger">
 
-        <div class="lae-team-member <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
+        <div class="lae-team-member <?php echo esc_attr($class_attr); ?>" <?php echo esc_attr($data_attr); ?>>
 
             <div class="lae-image-wrapper">
 

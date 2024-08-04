@@ -8,11 +8,11 @@
  * Author URI: https://livemeshelementor.com
  * License: GPL3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- * Version: 8.3.6
+ * Version: 8.5
  * Text Domain: livemesh-el-addons
  * Domain Path: languages
- * Elementor tested up to: 3.20.0
- * Elementor Pro tested up to: 3.20.0
+ * Elementor tested up to: 3.23.0
+ * Elementor Pro tested up to: 3.23.0
  *
  * Livemesh Addons for Elementor is distributed under the terms of the GNU
  * General Public License as published by the Free Software Foundation,
@@ -34,10 +34,9 @@ if ( !defined( 'ABSPATH' ) ) {
     exit;
 }
 // Ensure the free version is deactivated if premium is running
-
 if ( !function_exists( 'lae_fs' ) ) {
     // Plugin version
-    define( 'LAE_VERSION', '8.3.6' );
+    define( 'LAE_VERSION', '8.5' );
     // Plugin Root File
     define( 'LAE_PLUGIN_FILE', __FILE__ );
     // Plugin Folder Path
@@ -58,10 +57,8 @@ if ( !function_exists( 'lae_fs' ) ) {
     // Plugin Help Page URL
     define( 'LAE_PLUGIN_HELP_URL', admin_url() . 'admin.php?page=livemesh_el_addons_documentation' );
     // Create a helper function for easy SDK access.
-    function lae_fs()
-    {
-        global  $lae_fs ;
-        
+    function lae_fs() {
+        global $lae_fs;
         if ( !isset( $lae_fs ) ) {
             // Include Freemius SDK.
             require_once dirname( __FILE__ ) . '/freemius/start.php';
@@ -74,33 +71,31 @@ if ( !function_exists( 'lae_fs' ) ) {
                 'has_addons'     => false,
                 'has_paid_plans' => true,
                 'menu'           => array(
-                'slug'    => 'livemesh_el_addons',
-                'support' => false,
-            ),
+                    'slug'    => 'livemesh_el_addons',
+                    'support' => false,
+                ),
                 'is_live'        => true,
             ) );
         }
-        
         return $lae_fs;
     }
-    
+
     // Init Freemius.
     lae_fs();
     // Signal that SDK was initiated.
     do_action( 'lae_fs_loaded' );
-    function lae_fs_add_licensing_helper()
-    {
+    function lae_fs_add_licensing_helper() {
         ?>
         <script type="text/javascript">
             ( function () {
                 window.lae_fs = { can_use_premium_code: <?php 
-        echo  json_encode( lae_fs()->can_use_premium_code() ) ;
+        echo json_encode( lae_fs()->can_use_premium_code() );
         ?>};
             } )();
         </script>
         <?php 
     }
-    
+
     add_action( 'wp_head', 'lae_fs_add_licensing_helper' );
     require_once dirname( __FILE__ ) . '/plugin.php';
 }

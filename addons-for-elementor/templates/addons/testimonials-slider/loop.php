@@ -45,8 +45,8 @@ $carousel_settings = array_merge($carousel_settings, $responsive_settings);
 
 ?>
 
-<div<?php echo $dir . $styling; ?> class="lae-testimonials-slider lae-testimonials-slider-<?php echo $widget_template; ?> lae-container"
-                                 data-settings='<?php echo wp_json_encode($carousel_settings); ?>'>
+<div<?php echo esc_attr($dir . $styling); ?> class="lae-testimonials-slider lae-testimonials-slider-<?php echo $widget_template; ?> lae-container"
+                                 data-settings='<?php echo esc_attr(wp_json_encode($carousel_settings)); ?>'>
 
         <?php foreach ($settings['testimonials'] as $testimonial) : ?>
 

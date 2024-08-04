@@ -11,15 +11,17 @@
   .lae-service {
     margin-bottom: 20px;
 
-    .lae-icon-wrapper i {
+    .lae-icon-wrapper i, .lae-icon-wrapper svg {
       transition: color .4s ease-in-out 0s;
 
       &:hover {
         color: #555;
+        fill: #555;
       }
 
       .lae-dark-bg &:hover {
         color: #d5d5d5;
+        fill: #d5d5d5;
       }
     }
 
@@ -58,14 +60,15 @@
 /* Style 1 */
 .lae-services-style1 {
   .lae-service {
-    .lae-icon-wrapper i {
+    .lae-icon-wrapper i, .lae-icon-wrapper svg {
       display: block;
       text-align: center;
       font-size: 96px;
       line-height: 1;
-      margin-bottom: 20px;
+      margin: 0 auto 20px;
       transition: color .4s ease-in-out 0s;
       color: #888;
+      fill: #888;
 
       .lae-dark-bg & {
         color: #a5a5a5;
@@ -107,10 +110,11 @@
 
 .lae-services-style2 {
   .lae-service {
-    .lae-image-wrapper img, .lae-icon-wrapper i {
+    .lae-image-wrapper img, .lae-icon-wrapper i, .lae-icon-wrapper svg {
       float: left;
       margin-right: 18px;
       color: #888;
+      fill: #888;
 
       .rtl & {
         float: right;
@@ -126,7 +130,7 @@
       }
     }
 
-    .lae-icon-wrapper i {
+    .lae-icon-wrapper i, .lae-icon-wrapper svg {
       font-size: 24px;
       line-height: 32px;
     }
@@ -142,13 +146,14 @@
 
 .lae-services-style3 {
   .lae-service {
-    .lae-icon-wrapper i {
+    .lae-icon-wrapper i, .lae-icon-wrapper svg {
       display: block;
       text-align: left;
       font-size: 80px;
       line-height: 1;
       margin-bottom: 25px;
       color: #555;
+      fill: #555;
 
       .rtl & {
         text-align: right;

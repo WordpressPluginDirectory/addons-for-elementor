@@ -40,7 +40,7 @@ if (!empty($team_member['member_link']['url'])) {
 
     <?php list($animate_class, $animation_attr) = lae_get_animation_atts($team_member['widget_animation']); ?>
 
-    <div class="lae-team-member <?php echo $animate_class; ?>" <?php echo $animation_attr; ?>>
+    <div class="lae-team-member <?php echo esc_attr($animate_class); ?>" <?php echo esc_attr($animation_attr); ?>>
 
         <div class="lae-image-wrapper">
 

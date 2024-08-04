@@ -29,9 +29,9 @@ $device_type = $settings['device_type'];
 $custom_device = $settings['custom_device'];
 ?>
 
-<div <?php echo $dir; ?>
+<div <?php echo esc_attr($dir); ?>
         class="lae-device-slider lae-container <?php echo esc_attr($settings['device_slider_class']); ?>"
-        data-settings='<?php echo wp_json_encode($slider_options); ?>'>
+        data-settings='<?php echo esc_attr(wp_json_encode($slider_options)); ?>'>
 
     <div class="lae-device-image">
         <?php if ('mobile' === $device_type) { ?>

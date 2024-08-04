@@ -49,29 +49,29 @@ $deactivate_element_tab_slider = lae_get_option( 'lae_deactivate_element_tab_sli
                 <ul class="lae-tabs-wrap">
                     <li class="lae-tab selected" data-target="general"><i
                                 class="lae-icon dashicons dashicons-admin-generic"></i><?php 
-echo  __( 'General', 'livemesh-el-addons' ) ;
+echo __( 'General', 'livemesh-el-addons' );
 ?>
                     </li>
                     <li class="lae-tab" data-target="elements"><i
                                 class="lae-icon dashicons dashicons-admin-settings"></i><?php 
-echo  __( 'Elements', 'livemesh-el-addons' ) ;
+echo __( 'Elements', 'livemesh-el-addons' );
 ?>
                     </li>
                     <?php 
 ?>
                     <li class="lae-tab" data-target="custom-css"><i
                                 class="lae-icon dashicons dashicons-editor-code"></i><?php 
-echo  __( 'Custom CSS', 'livemesh-el-addons' ) ;
+echo __( 'Custom CSS', 'livemesh-el-addons' );
 ?>
                     </li>
                     <li class="lae-tab" data-target="debugging"><i
                                 class="lae-icon dashicons dashicons-warning"></i><?php 
-echo  __( 'Debugging', 'livemesh-el-addons' ) ;
+echo __( 'Debugging', 'livemesh-el-addons' );
 ?>
                     </li>
                     <li class="lae-tab" data-target="premium-version"><i
                                 class="lae-icon dashicons dashicons-yes"></i><?php 
-echo  __( 'Premium Version', 'livemesh-el-addons' ) ;
+echo __( 'Premium Version', 'livemesh-el-addons' );
 ?>
                     </li>
                 </ul>
@@ -83,17 +83,17 @@ echo  __( 'Premium Version', 'livemesh-el-addons' ) ;
                     <!---- Theme Colors -->
                     <div class="lae-box-side">
                         <h3><?php 
-echo  __( 'Theme Colors', 'livemesh-el-addons' ) ;
+echo __( 'Theme Colors', 'livemesh-el-addons' );
 ?></h3>
                     </div>
                     <div class="lae-inner lae-box-inner">
                         <div class="lae-row lae-field">
                             <label
                                     class="lae-label"><?php 
-echo  __( 'Theme Color Scheme', 'livemesh-el-addons' ) ;
+echo __( 'Theme Color Scheme', 'livemesh-el-addons' );
 ?></label>
                             <p class="lae-desc"><?php 
-echo  __( 'Most themes use a single color as a major color across the site. This color is often used for links, titles, buttons, icons, highlights etc. <br> To maintain the consistent look with the theme, specify the default color used by the theme activated on your site. This color will be applied to the plugin addon controls by default. <br>The hover color refers to the color set for links on mouse hover.', 'livemesh-el-addons' ) ;
+echo __( 'Most themes use a single color as a major color across the site. This color is often used for links, titles, buttons, icons, highlights etc. <br> To maintain the consistent look with the theme, specify the default color used by the theme activated on your site. This color will be applied to the plugin addon controls by default. <br>The hover color refers to the color set for links on mouse hover.', 'livemesh-el-addons' );
 ?></p>
                         </div>
 
@@ -102,15 +102,15 @@ echo  __( 'Most themes use a single color as a major color across the site. This
                         <!---- Theme color -->
                         <div class="lae-row lae-field lae-type-color">
                             <label class="lae-label"><?php 
-echo  __( 'Theme Color', 'livemesh-el-addons' ) ;
+echo __( 'Theme Color', 'livemesh-el-addons' );
 ?></label>
                             <p class="lae-desc"><?php 
-echo  __( 'Select the default theme color.', 'livemesh-el-addons' ) ;
+echo __( 'Select the default theme color.', 'livemesh-el-addons' );
 ?></p>
                             <div class="lae-spacer" style="height: 5px"></div>
                             <input class="lae-colorpicker" name="lae_theme_color" type="text"
                                    data-default="#f94213" value="<?php 
-echo  esc_attr( $theme_color ) ;
+echo esc_attr( $theme_color );
 ?>"/>
                         </div>
 
@@ -120,15 +120,15 @@ echo  esc_attr( $theme_color ) ;
                         <!---- Theme Hover color -->
                         <div class="lae-row lae-field lae-type-color">
                             <label class="lae-label"><?php 
-echo  __( 'Theme Hover Color', 'livemesh-el-addons' ) ;
+echo __( 'Theme Hover Color', 'livemesh-el-addons' );
 ?></label>
                             <p class="lae-desc"><?php 
-echo  __( 'Select the default hover color for your theme.', 'livemesh-el-addons' ) ;
+echo __( 'Select the default hover color for your theme.', 'livemesh-el-addons' );
 ?></p>
                             <div class="lae-spacer" style="height: 5px"></div>
                             <input class="lae-colorpicker" name="lae_theme_hover_color" type="text"
                                    data-default="#888888" value="<?php 
-echo  esc_attr( $theme_hover_color ) ;
+echo esc_attr( $theme_hover_color );
 ?>"/>
                         </div>
 
@@ -152,7 +152,7 @@ echo  esc_attr( $theme_hover_color ) ;
                     <div class="lae-box-side">
 
                         <h3><?php 
-echo  __( 'Optimize Plugin', 'livemesh-el-addons' ) ;
+echo __( 'Optimize Plugin', 'livemesh-el-addons' );
 ?></h3>
 
                     </div>
@@ -162,11 +162,11 @@ echo  __( 'Optimize Plugin', 'livemesh-el-addons' ) ;
 
                         <div class="lae-row lae-field">
                             <label class="lae-label"><?php 
-echo  __( 'Deactivate elements for better performance', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate elements for better performance', 'livemesh-el-addons' );
 ?></label>
 
                             <p class="lae-desc"><?php 
-echo  __( 'You can deactivate those elements that you do not intend to use to avoid loading scripts and files related to those elements.', 'livemesh-el-addons' ) ;
+echo __( 'You can deactivate those elements that you do not intend to use to avoid loading scripts and files related to those elements.', 'livemesh-el-addons' );
 ?></p>
                         </div>
 
@@ -176,19 +176,19 @@ echo  __( 'You can deactivate those elements that you do not intend to use to av
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Carousel', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Carousel', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the carousel element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the carousel element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_carousel"
                                            id="lae_deactivate_element_carousel" data-default=""
                                            value="<?php 
-echo  $deactivate_element_carousel ;
+echo $deactivate_element_carousel;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_carousel), 1, false ) ;
+echo checked( !empty( $deactivate_element_carousel ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_carousel"></label>
                                 </div>
@@ -196,19 +196,19 @@ echo  checked( !empty($deactivate_element_carousel), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Clients', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Clients', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the clients element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the clients element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_clients"
                                            id="lae_deactivate_element_clients" data-default=""
                                            value="<?php 
-echo  $deactivate_element_clients ;
+echo $deactivate_element_clients;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_clients), 1, false ) ;
+echo checked( !empty( $deactivate_element_clients ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_clients"></label>
                                 </div>
@@ -216,19 +216,19 @@ echo  checked( !empty($deactivate_element_clients), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Heading', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Heading', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the heading element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the heading element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_heading"
                                            id="lae_deactivate_element_heading" data-default=""
                                            value="<?php 
-echo  $deactivate_element_heading ;
+echo $deactivate_element_heading;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_heading), 1, false ) ;
+echo checked( !empty( $deactivate_element_heading ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_heading"></label>
                                 </div>
@@ -236,10 +236,10 @@ echo  checked( !empty($deactivate_element_heading), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Animated Text', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Animated Text', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the animated text element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the animated text element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -247,9 +247,9 @@ echo  __( 'Deactivate the animated text element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_animated_text"
                                            id="lae_deactivate_element_animated_text" data-default=""
                                            value="<?php 
-echo  $deactivate_element_animated_text ;
+echo $deactivate_element_animated_text;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_animated_text), 1, false ) ;
+echo checked( !empty( $deactivate_element_animated_text ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_animated_text"></label>
                                 </div>
@@ -257,10 +257,10 @@ echo  checked( !empty($deactivate_element_animated_text), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Marquee Text', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Marquee Text', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the marquee text element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the marquee text element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -268,9 +268,9 @@ echo  __( 'Deactivate the marquee text element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_marquee_text"
                                            id="lae_deactivate_element_marquee_text" data-default=""
                                            value="<?php 
-echo  $deactivate_element_marquee_text ;
+echo $deactivate_element_marquee_text;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_marquee_text), 1, false ) ;
+echo checked( !empty( $deactivate_element_marquee_text ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_marquee_text"></label>
                                 </div>
@@ -278,10 +278,10 @@ echo  checked( !empty($deactivate_element_marquee_text), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Device Slider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Device Slider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the Device Slider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the Device Slider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -289,9 +289,9 @@ echo  __( 'Deactivate the Device Slider element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_device_slider"
                                            id="lae_deactivate_element_device_slider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_device_slider ;
+echo $deactivate_element_device_slider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_device_slider), 1, false ) ;
+echo checked( !empty( $deactivate_element_device_slider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_device_slider"></label>
                                 </div>
@@ -299,10 +299,10 @@ echo  checked( !empty($deactivate_element_device_slider), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Odometers', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Odometers', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the odometers element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the odometers element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -310,9 +310,9 @@ echo  __( 'Deactivate the odometers element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_odometers"
                                            id="lae_deactivate_element_odometers" data-default=""
                                            value="<?php 
-echo  $deactivate_element_odometers ;
+echo $deactivate_element_odometers;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_odometers), 1, false ) ;
+echo checked( !empty( $deactivate_element_odometers ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_odometers"></label>
                                 </div>
@@ -320,10 +320,10 @@ echo  checked( !empty($deactivate_element_odometers), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Piecharts', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Piecharts', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the piecharts element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the piecharts element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -331,9 +331,9 @@ echo  __( 'Deactivate the piecharts element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_piecharts"
                                            id="lae_deactivate_element_piecharts" data-default=""
                                            value="<?php 
-echo  $deactivate_element_piecharts ;
+echo $deactivate_element_piecharts;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_piecharts), 1, false ) ;
+echo checked( !empty( $deactivate_element_piecharts ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_piecharts"></label>
                                 </div>
@@ -341,10 +341,10 @@ echo  checked( !empty($deactivate_element_piecharts), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Portfolio', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Portfolio', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the portfolio element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the portfolio element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -352,9 +352,9 @@ echo  __( 'Deactivate the portfolio element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_portfolio"
                                            id="lae_deactivate_element_portfolio" data-default=""
                                            value="<?php 
-echo  $deactivate_element_portfolio ;
+echo $deactivate_element_portfolio;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_portfolio), 1, false ) ;
+echo checked( !empty( $deactivate_element_portfolio ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_portfolio"></label>
                                 </div>
@@ -362,10 +362,10 @@ echo  checked( !empty($deactivate_element_portfolio), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Posts Carousel', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Posts Carousel', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the posts carousel element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the posts carousel element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -373,9 +373,9 @@ echo  __( 'Deactivate the posts carousel element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_posts_carousel"
                                            id="lae_deactivate_element_posts_carousel" data-default=""
                                            value="<?php 
-echo  $deactivate_element_posts_carousel ;
+echo $deactivate_element_posts_carousel;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_posts_carousel), 1, false ) ;
+echo checked( !empty( $deactivate_element_posts_carousel ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_posts_carousel"></label>
                                 </div>
@@ -383,10 +383,10 @@ echo  checked( !empty($deactivate_element_posts_carousel), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Posts Slider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Posts Slider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the Posts Slider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the Posts Slider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -394,9 +394,9 @@ echo  __( 'Deactivate the Posts Slider element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_posts_slider"
                                            id="lae_deactivate_element_posts_slider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_posts_slider ;
+echo $deactivate_element_posts_slider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_posts_slider), 1, false ) ;
+echo checked( !empty( $deactivate_element_posts_slider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_posts_slider"></label>
                                 </div>
@@ -404,10 +404,10 @@ echo  checked( !empty($deactivate_element_posts_slider), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Posts Grid Box Slider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Posts Grid Box Slider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the Posts Grid Box Slider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the Posts Grid Box Slider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -415,9 +415,9 @@ echo  __( 'Deactivate the Posts Grid Box Slider element.', 'livemesh-el-addons' 
                                            name="lae_deactivate_element_posts_gridbox_slider"
                                            id="lae_deactivate_element_posts_gridbox_slider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_posts_gridbox_slider ;
+echo $deactivate_element_posts_gridbox_slider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_posts_gridbox_slider), 1, false ) ;
+echo checked( !empty( $deactivate_element_posts_gridbox_slider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_posts_gridbox_slider"></label>
                                 </div>
@@ -425,10 +425,10 @@ echo  checked( !empty($deactivate_element_posts_gridbox_slider), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Posts Multislider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Posts Multislider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the Posts Multislider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the Posts Multislider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -436,9 +436,9 @@ echo  __( 'Deactivate the Posts Multislider element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_posts_multislider"
                                            id="lae_deactivate_element_posts_multislider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_posts_multislider ;
+echo $deactivate_element_posts_multislider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_posts_multislider), 1, false ) ;
+echo checked( !empty( $deactivate_element_posts_multislider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_posts_multislider"></label>
                                 </div>
@@ -446,10 +446,10 @@ echo  checked( !empty($deactivate_element_posts_multislider), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Timeline', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Timeline', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the Timeline element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the Timeline element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -457,9 +457,9 @@ echo  __( 'Deactivate the Timeline element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_timeline"
                                            id="lae_deactivate_element_timeline" data-default=""
                                            value="<?php 
-echo  $deactivate_element_timeline ;
+echo $deactivate_element_timeline;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_timeline), 1, false ) ;
+echo checked( !empty( $deactivate_element_timeline ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_timeline"></label>
                                 </div>
@@ -467,10 +467,10 @@ echo  checked( !empty($deactivate_element_timeline), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Pricing Table', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Pricing Table', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the pricing table element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the pricing table element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -478,9 +478,9 @@ echo  __( 'Deactivate the pricing table element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_pricing_table"
                                            id="lae_deactivate_element_pricing_table" data-default=""
                                            value="<?php 
-echo  $deactivate_element_pricing_table ;
+echo $deactivate_element_pricing_table;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_pricing_table), 1, false ) ;
+echo checked( !empty( $deactivate_element_pricing_table ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_pricing_table"></label>
                                 </div>
@@ -488,19 +488,19 @@ echo  checked( !empty($deactivate_element_pricing_table), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Services', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Services', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the services element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the services element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_services"
                                            id="lae_deactivate_element_spacer" data-default=""
                                            value="<?php 
-echo  $deactivate_element_services ;
+echo $deactivate_element_services;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_services), 1, false ) ;
+echo checked( !empty( $deactivate_element_services ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_services"></label>
                                 </div>
@@ -508,19 +508,19 @@ echo  checked( !empty($deactivate_element_services), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Message Box', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Message Box', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the message box element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the message box element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_message_box"
                                            id="lae_deactivate_element_spacer" data-default=""
                                            value="<?php 
-echo  $deactivate_element_message_box ;
+echo $deactivate_element_message_box;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_message_box), 1, false ) ;
+echo checked( !empty( $deactivate_element_message_box ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_message_box"></label>
                                 </div>
@@ -528,10 +528,10 @@ echo  checked( !empty($deactivate_element_message_box), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Stats Bars', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Stats Bars', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the stats bars element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the stats bars element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -539,9 +539,9 @@ echo  __( 'Deactivate the stats bars element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_stats_bar"
                                            id="lae_deactivate_element_stats_bar" data-default=""
                                            value="<?php 
-echo  $deactivate_element_stats_bar ;
+echo $deactivate_element_stats_bar;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_stats_bar), 1, false ) ;
+echo checked( !empty( $deactivate_element_stats_bar ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_stats_bar"></label>
                                 </div>
@@ -549,19 +549,19 @@ echo  checked( !empty($deactivate_element_stats_bar), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Team', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Team', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the team element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the team element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
                                     <input type="checkbox" class="lae-checkbox" name="lae_deactivate_element_team"
                                            id="lae_deactivate_element_team" data-default=""
                                            value="<?php 
-echo  $deactivate_element_team ;
+echo $deactivate_element_team;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_team), 1, false ) ;
+echo checked( !empty( $deactivate_element_team ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_team"></label>
                                 </div>
@@ -569,10 +569,10 @@ echo  checked( !empty($deactivate_element_team), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Testimonials', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Testimonials', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the testimonials element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the testimonials element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -580,9 +580,9 @@ echo  __( 'Deactivate the testimonials element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_testimonials"
                                            id="lae_deactivate_element_testimonials" data-default=""
                                            value="<?php 
-echo  $deactivate_element_testimonials ;
+echo $deactivate_element_testimonials;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_testimonials), 1, false ) ;
+echo checked( !empty( $deactivate_element_testimonials ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_testimonials"></label>
                                 </div>
@@ -590,10 +590,10 @@ echo  checked( !empty($deactivate_element_testimonials), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Testimonials Slider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Testimonials Slider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the testimonials slider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the testimonials slider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -601,9 +601,9 @@ echo  __( 'Deactivate the testimonials slider element.', 'livemesh-el-addons' ) 
                                            name="lae_deactivate_element_testimonials_slider"
                                            id="lae_deactivate_element_testimonials_slider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_testimonials_slider ;
+echo $deactivate_element_testimonials_slider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_testimonials_slider), 1, false ) ;
+echo checked( !empty( $deactivate_element_testimonials_slider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_testimonials_slider"></label>
                                 </div>
@@ -611,10 +611,10 @@ echo  checked( !empty($deactivate_element_testimonials_slider), 1, false ) ;
 
                             <div class="lae-row lae-type-checkbox lae-field">
                                 <label class="lae-label"><?php 
-echo  __( 'Deactivate Tab Slider', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate Tab Slider', 'livemesh-el-addons' );
 ?></label>
                                 <p class="lae-desc"><?php 
-echo  __( 'Deactivate the tab slider element.', 'livemesh-el-addons' ) ;
+echo __( 'Deactivate the tab slider element.', 'livemesh-el-addons' );
 ?></p>
                                 <div class="lae-spacer" style="height: 5px"></div>
                                 <div class="lae-toggle">
@@ -622,9 +622,9 @@ echo  __( 'Deactivate the tab slider element.', 'livemesh-el-addons' ) ;
                                            name="lae_deactivate_element_tab_slider"
                                            id="lae_deactivate_element_tab_slider" data-default=""
                                            value="<?php 
-echo  $deactivate_element_tab_slider ;
+echo $deactivate_element_tab_slider;
 ?>" <?php 
-echo  checked( !empty($deactivate_element_tab_slider), 1, false ) ;
+echo checked( !empty( $deactivate_element_tab_slider ), 1, false );
 ?>>
                                     <label for="lae_deactivate_element_tab_slider"></label>
                                 </div>
@@ -651,25 +651,25 @@ echo  checked( !empty($deactivate_element_tab_slider), 1, false ) ;
                     <!---- Custom CSS -->
                     <div class="lae-box-side">
                         <h3><?php 
-echo  __( 'Custom CSS', 'livemesh-el-addons' ) ;
+echo __( 'Custom CSS', 'livemesh-el-addons' );
 ?></h3>
                     </div>
                     <div class="lae-inner lae-box-inner">
                         <div class="lae-row lae-field lae-custom-css">
                             <label
                                     class="lae-label"><?php 
-echo  __( 'Custom CSS', 'livemesh-el-addons' ) ;
+echo __( 'Custom CSS', 'livemesh-el-addons' );
 ?></label>
                             <div class="lae-spacer" style="height: 5px"></div>
                             <p class="lae-desc"><?php 
-echo  __( 'Please enter custom CSS for custom styling of addons', 'livemesh-el-addons' ) ;
+echo __( 'Please enter custom CSS for custom styling of addons', 'livemesh-el-addons' );
 ?></p>
 
                             <div class="lae-spacer" style="height: 15px"></div>
 
                             <textarea class="lae-textarea" name="lae_custom_css" id="lae_custom_css" rows="20"
                                       cols="120"><?php 
-echo  wp_kses_post( $custom_css ) ;
+echo wp_kses_post( $custom_css );
 ?></textarea>
 
                         </div>
@@ -686,27 +686,27 @@ echo  wp_kses_post( $custom_css ) ;
                     <!---- Enable script debugging -->
                     <div class="lae-box-side">
                         <h3><?php 
-echo  __( 'Debug Mode', 'livemesh-el-addons' ) ;
+echo __( 'Debug Mode', 'livemesh-el-addons' );
 ?></h3>
                     </div>
                     <div class="lae-inner lae-box-inner">
                         <div class="lae-spacer" style="height: 15px"></div>
                         <label
                                 class="lae-label lae-label-outside"><?php 
-echo  __( 'Enable Script Debug Mode', 'livemesh-el-addons' ) ;
+echo __( 'Enable Script Debug Mode', 'livemesh-el-addons' );
 ?></label>
                         <div class="lae-row lae-type-checkbox lae-field">
                             <p class="lae-desc"><?php 
-echo  __( 'Use unminified Javascript files instead of minified ones to help developers debug an issue', 'livemesh-el-addons' ) ;
+echo __( 'Use unminified Javascript files instead of minified ones to help developers debug an issue', 'livemesh-el-addons' );
 ?></p>
                             <div class="lae-toggle">
                                 <input type="checkbox" class="lae-checkbox" name="lae_enable_debug"
                                        id="lae_enable_debug"
                                        data-default=""
                                        value="<?php 
-echo  $debug_mode ;
+echo $debug_mode;
 ?>" <?php 
-echo  checked( !empty($debug_mode), 1, false ) ;
+echo checked( !empty( $debug_mode ), 1, false );
 ?>>
                                 <label for="lae_enable_debug"></label>
                             </div>
@@ -718,7 +718,7 @@ echo  checked( !empty($debug_mode), 1, false ) ;
                     <!---- System Info -->
                     <div class="lae-box-side">
                         <h3><?php 
-echo  __( 'System Info', 'livemesh-el-addons' ) ;
+echo __( 'System Info', 'livemesh-el-addons' );
 ?></h3>
                     </div>
                     <div class="lae-inner lae-box-inner">
@@ -726,16 +726,16 @@ echo  __( 'System Info', 'livemesh-el-addons' ) ;
                         <div class="lae-row lae-field">
                             <label
                                     class="lae-label"><?php 
-echo  __( 'System Information', 'livemesh-el-addons' ) ;
+echo __( 'System Information', 'livemesh-el-addons' );
 ?></label>
                             <p class="lae-desc"><?php 
-echo  __( 'Server setup information useful for debugging purposes.', 'livemesh-el-addons' ) ;
+echo __( 'Server setup information useful for debugging purposes.', 'livemesh-el-addons' );
 ?></p>
 
                             <div class="lae-spacer" style="height: 15px"></div>
 
                             <p class="debug-info"><?php 
-echo  nl2br( lae_get_sysinfo() ) ;
+echo nl2br( lae_get_sysinfo() );
 ?></p>
                         </div>
 
@@ -752,7 +752,7 @@ echo  nl2br( lae_get_sysinfo() ) ;
                     <!---- Premium Version Information -->
                     <div class="lae-box-side">
                         <h3><?php 
-echo  __( 'Premium Version', 'livemesh-el-addons' ) ;
+echo __( 'Premium Version', 'livemesh-el-addons' );
 ?></h3>
                     </div>
                     <div class="lae-inner lae-box-inner">
@@ -761,12 +761,11 @@ echo  __( 'Premium Version', 'livemesh-el-addons' ) ;
                         <div class="lae-row lae-field lae_premium_version">
 
                             <?php 
-
 if ( lae_fs()->is_not_paying() ) {
     ?>
 
                                 <label class="lae-label"><?php 
-    echo  __( 'Why upgrade to Premium Version of the plugin?!', 'livemesh-el-addons' ) ;
+    echo __( 'Why upgrade to Premium Version of the plugin?!', 'livemesh-el-addons' );
     ?></label>
 
                             <?php 
@@ -774,12 +773,11 @@ if ( lae_fs()->is_not_paying() ) {
     ?>
 
                                 <label class="lae-label"><?php 
-    echo  __( 'Thanks for upgrading to the Premium Version of the plugin!', 'livemesh-el-addons' ) ;
+    echo __( 'Thanks for upgrading to the Premium Version of the plugin!', 'livemesh-el-addons' );
     ?></label>
 
                             <?php 
 }
-
 ?>
 
                             <p>The premium version helps us to continue development of this plugin incorporating even
@@ -866,15 +864,14 @@ if ( lae_fs()->is_not_paying() ) {
                             <div class="lae-spacer" style="height: 15px"></div>
 
                             <?php 
-
 if ( lae_fs()->is_not_paying() ) {
     ?>
 
                                 <a class="lae-button purchase" href="<?php 
-    echo  lae_fs()->get_upgrade_url() ;
+    echo lae_fs()->get_upgrade_url();
     ?>"><i
                                             class="dashicons dashicons-cart"></i><?php 
-    echo  __( 'Purchase Now', 'livemesh-el-addons' ) ;
+    echo __( 'Purchase Now', 'livemesh-el-addons' );
     ?>
                                 </a>
 
@@ -882,7 +879,6 @@ if ( lae_fs()->is_not_paying() ) {
 
                             <?php 
 }
-
 ?>
 
                             <label class="lae-label">Additional Features</label>
@@ -954,15 +950,14 @@ if ( lae_fs()->is_not_paying() ) {
                             <div class="lae-spacer" style="height: 25px"></div>
 
                             <?php 
-
 if ( lae_fs()->is_not_paying() ) {
     ?>
 
                                 <a class="lae-button purchase" href="<?php 
-    echo  lae_fs()->get_upgrade_url() ;
+    echo lae_fs()->get_upgrade_url();
     ?>"><i
                                             class="dashicons dashicons-cart"></i><?php 
-    echo  __( 'Go Premium', 'livemesh-el-addons' ) ;
+    echo __( 'Go Premium', 'livemesh-el-addons' );
     ?>
                                 </a>
 
@@ -972,13 +967,12 @@ if ( lae_fs()->is_not_paying() ) {
 
                                 <a class="lae-button know-more" href="https://livemeshelementor.com/"><i
                                             class="dashicons dashicons-external"></i><?php 
-    echo  __( 'Know More', 'livemesh-el-addons' ) ;
+    echo __( 'Know More', 'livemesh-el-addons' );
     ?>
                                 </a>
 
                             <?php 
 }
-
 ?>
 
 

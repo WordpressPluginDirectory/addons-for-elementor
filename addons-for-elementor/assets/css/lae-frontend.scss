@@ -61,6 +61,13 @@
   text-align: center;
 }
 
+.lae-icon-wrapper i, .lae-icon-wrapper svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: block;
+}
+
 /* ---------------- Uber Grid Styles ---------------------- */
 
 .lae-uber-grid-container {
@@ -216,7 +223,7 @@ $color-collection: (#363636, #46a5d5, #57c0dc, #00a57d, #e87151, #dd5679, #da4f4
 
   &:hover {
     background-color: #fff;
-    color: #333 !important;
+    color: #333;
     border-color: #fff;
   }
 }
@@ -228,8 +235,14 @@ $color-collection: (#363636, #46a5d5, #57c0dc, #00a57d, #e87151, #dd5679, #da4f4
 
   &:hover {
     background-color: #fff;
-    color: #333 !important;
+    color: #333;
   }
+}
+.lae-with-icon i, .lae-with-icon svg {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  display: inline-block;
 }
 
 /* Template Library Theme Builder Templates */
@@ -260,8 +273,9 @@ input.lae-button.lae-with-icon, button.lae-button.lae-with-icon, a.lae-button.la
     }
   }
 
-  i {
+  i, svg {
     color: #fff;
+    fill: #fff;
     font-size: 24px;
     vertical-align: middle;
     line-height: 1;

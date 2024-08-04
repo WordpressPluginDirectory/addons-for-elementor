@@ -442,7 +442,7 @@ class LAE_Marquee_Text_Widget extends LAE_Widget_Base {
                 ],
                 'selectors' => [
                     '{{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-image-wrapper img' => 'max-width: {{SIZE}}{{UNIT}};',
-                    '{{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper i' => 'font-size: {{SIZE}}{{UNIT}};',
+                    '{{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper i, {{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper svg' => 'font-size: {{SIZE}}{{UNIT}};',
                 ],
             ]
         );
@@ -456,7 +456,7 @@ class LAE_Marquee_Text_Widget extends LAE_Widget_Base {
                     'separator_icon_type' => 'icon',
                 ],
                 'selectors' => [
-                    '{{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper i' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper i, {{WRAPPER}} .lae-marquee-text-content .lae-marquee-text-items .lae-icon-wrapper svg' => 'color: {{VALUE}}; fill: {{VALUE}};',
                 ],
             ]
         );

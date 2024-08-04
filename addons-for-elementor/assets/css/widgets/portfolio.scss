@@ -55,9 +55,9 @@
     display: block;
     margin: 0;
     padding: 0;
-    @include align-self(center);
+    align-self: center;
     @include respond-to-max(800) {
-      @include align-self(flex-start);
+      align-self: flex-start;
     }
 
     .lae-filter-item {
@@ -285,7 +285,7 @@
           }
 
           a {
-            @include transition(all 0.3s ease-in-out 0s);
+            transition: all 0.3s ease-in-out 0s;
             font-style: normal;
           }
 

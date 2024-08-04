@@ -13,7 +13,7 @@ if (!defined('ABSPATH')) {
 
 ?>
 
-<div class="lae-testimonial lae-<?php echo $testimonial['testimonial_rating']; ?>">
+<div class="lae-testimonial lae-<?php echo esc_attr($testimonial['testimonial_rating']); ?>">
 
     <div class="lae-testimonial-text">
 

@@ -35,14 +35,14 @@ $container_class = 'lae-animated-text' . ' lae-align-' . esc_attr($settings['tex
 
     <?php $anchor_tag = true; ?>
 
-    <a <?php echo $dir; ?> href="<?php echo esc_url($settings['animated_text_link']['url']); ?> " <?php echo $target; ?>
-                           class="<?php echo $container_class; ?>"
-                           data-settings='<?php echo wp_json_encode($animation_settings); ?>'>
+    <a <?php echo esc_attr($dir); ?> href="<?php echo esc_url($settings['animated_text_link']['url']); ?> " <?php echo $target; ?>
+                           class="<?php echo esc_attr($container_class); ?>"
+                           data-settings='<?php echo esc_attr(wp_json_encode($animation_settings)); ?>'>
 
 <?php else: ?>
 
-    <div <?php echo $dir; ?> class="<?php echo $container_class; ?>"
-                         data-settings='<?php echo wp_json_encode($animation_settings); ?>'>
+    <div <?php echo esc_attr($dir); ?> class="<?php echo esc_attr($container_class); ?>"
+                         data-settings='<?php echo esc_attr(wp_json_encode($animation_settings)); ?>'>
 
 <?php endif; ?>
 

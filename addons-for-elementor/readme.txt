@@ -3,11 +3,11 @@ Author URI: https://livemeshelementor.com
 Plugin URI: https://livemeshelementor.com
 Donate link: https://livemeshelementor.com/
 Contributors: livemesh, elementoraddons, freemius
-Tags: elementor, elementor addons, elementor extensions, elementor widgets, page builder, woocommerce elementor, elementor ui kit
+Tags: elementor, elementor addons, elementor extensions, elementor widgets, page builder
 Requires at least: 5.8
-Tested up to: 6.5
+Tested up to: 6.6
 Requires PHP: 5.8
-Stable Tag: 8.3.6
+Stable Tag: 8.5
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -56,9 +56,6 @@ The plugin comes with the following Elementor addons or extensions. <strong>Almo
 * **<a href="https://livemeshelementor.com/testimonials/" title="Testimonials Addon">Testimonials</a>** to tell everyone the good things you often hear from your clients/customers.
 * **<a href="https://livemeshelementor.com/testimonial-slider/" title="Testimonial Slider Addon">Testimonials slider</a>** is a responsive touch enabled slider that cycles through testimonials.
 * **<a href="https://livemeshelementor.com/generic-carousel/" title="Generic Carousel Addon">Generic Carousel</a>** element that displays lets you present a list of HTML content in a carousel.
-* **<a href="https://livemeshelementor.com/clients-module/" title="Clients List Element">Clients List</a>** extension to showcase the clients that you have handled.
-* **<a href="https://livemeshelementor.com/pricing-table/" title="Pricing Table Extension">Pricing Plans</a>** to help get more sales.
-* **<a href="https://livemeshelementor.com/services/" title="Services Extension">Services</a>** that capture what you can offer for your clients/customers.
 * **Heading styles** to capture effective headings for your page sections.
 * **Tab Slider addon** which showcases a touch-friendly, responsive tab slider.
 
@@ -82,9 +79,6 @@ The **<a href="https://livemeshelementor.com/" title="Livemesh Addons for Elemen
 * **<a href="https://livemeshelementor.com/sliders/" title="Image Slider Extension">Image Slider</a>** to create a responsive slider of images with support for captions, multiple slider types like Nivo, Flex, Slick and lightweight sliders, thumbnail navigation etc.
 * **<a href="https://livemeshelementor.com/faq-element/" title="FAQ Element">FAQ element</a>** to display a set of Frequently Asked Questions in a page.
 * **<a href="https://livemeshelementor.com/features/" title="Features Addon">Features Addon</a>** for showcasing product features or services provided by an agency/business.
-* **<a href="https://livemeshelementor.com/buttons/" title="Buttons">Flat style buttons</a>** with rich set of customization options.
-* **<a href="https://livemeshelementor.com/icon-lists/" title="Icon List element">Icon list addon</a>** that lets you use either images or icon fonts to create custom social icons list, capture payment options etc.
-* **<a href="https://livemeshelementor.com/services-advanced/" title="Advanced Services">Advanced Services</a>** with additional styles and animations for services addon.
 * **Additional Styles** - The premium version of the plugin support additional styles for widgets like the Posts Slider, Posts Grid Box Slider and Services.
 * **Lightbox Support** - The premium version comes with support for Lightbox for grid and carousel addons. Lightbox with features like thumbnails, full screen, direct linking to images, social sharing, touch controls, etc.
 * **Custom Animations** - Choose from over <strong>40+ animations</strong> for most addon elements (excludes sliders, carousels and grid). The animations display on user scrolling to the element or when the element becomes visible in the browser window.
@@ -107,12 +101,7 @@ You can view the change log for the Premium version of the plugin at <a href="ht
 
 == Dynamic Content widgets ==
 **Know the power of this plugin to be able to create dynamic content widgets, leveraging the Elementor PRO theme builder.** Almost any type of dynamic content widgets can be crafted by leveraging the power of Elementor Page Builder in our Posts Grid and Posts Carousel modules. Possibilities are literally endless. -
-* Posts Grid items support 'Custom Grid' and 'Custom Skin' options that help create your own custom posts grid and/or custom posts grid item using theme builder templates in Elementor PRO. **One can design custom grid layout and create custom skins for grid items using just the drag and drop widgets functions in Elementor PRO.**
-* The Posts Carousel items support 'Custom Skin' using which you can design your own posts carousel with the help of theme builder templates. Designing a custom skin for posts carousel items is now as easy as dragging and dropping of page builder extensions in Elementor PRO.
-* Using Elementor Page Builder, you can design custom skin for Posts Carousel and Posts Grid items with your choice of post fields and their arrangement.
-* You can choose separate Skin Templates for the individual items within a Posts Grid. A single Posts Grid can feature disparate set of grid items that leverage separate skins of their choice.
-* For Posts Carousel and Posts Grid, you can use any custom post type with custom fields(including those custom fields created using ACF/Pods/Toolset plugins).
-* **Using just the drag and drop widgets functions in Elementor, one can design custom sliders/carousels and grids of Events, Staff/Team, Features/Services, Testimonials, Educational Courses/Classes, Food Menu items, Food Recipes, Portfolio items, Posts etc. by leveraging the custom grid and grid item templates feature built into Posts Carousel and Posts Grid widgets.** Possibilities for building custom carousels and grids are literally endless with dynamic content and page building experience provided by Elementor and data provided by custom post types created using plugins like ACF/Pods/Toolset.
+
 * To help build custom skins and custom grids for Posts Carousel and Posts Grid extensions, the plugin defines two theme builder template locations named Livemesh Item and Livemesh Grid.
 
 [youtube https://www.youtube.com/watch?v=C__2o2U-s5E]
@@ -126,58 +115,24 @@ You can view the change log for the Premium version of the plugin at <a href="ht
 	* **AJAX pagination** support with the ability to seamlessly handle a large number of pages.
 	* **Load more, Load on Scroll (infinite Scroll), and Next Prev** navigation available as other modes for AJAX-based posts navigation.
 	* **AJAX based category/taxonomy filters**. Helps users navigate the entire collection of blog posts or custom post types and their categories without reloading the page.
-	* Responsive filters which collapse as screen/device size reduces.
 	* **Infinite customization** and support for custom skin with Elementor Theme Builder templates
 	* **More than 15 built-in styles** that are carefully thought-out
 	* Almost a dozen built-in Posts Block styles for blogs, news, and magazine-style websites
 	* 6 different Posts Grid styles to present your blog posts/portfolio items or any custom post type and 7 different styles for the header.
 	* Built-in cache for performance of filtering, pagination, load more.
-	* Easy customization - Almost all display elements can be turned off/on
-	* For lightbox, click anywhere on the image. If a destination URL is specified for the gallery item, the lightbox can be opened by clicking on an icon.
-	* Advanced features like touch/swipe controls, pinch out/in, double-tap, keyboard navigation, full screen, thumbnails, social media sharing, hardware-accelerated animations, direct linking supported with lightbox.
 	* **WooCommerce Support** – Now you can create a grid of WooCommerce products and display details of WooCommerce products like name, price, rating, add to cart, add to wish list, etc. It comes with a quick view option to display product details in a modal window.
 * **Additional styles and settings for Posts Slider, Posts Multislider and Posts Gridbox Slider**
 * **The most feature-rich Image/Video Gallery and Image/Video Slider/Carousel for Elementor**
 	* Gallery module with support for images, YouTube/Vimeo, and HTML5 self-hosted videos
 	* Gallery Carousel/Slider module for images, YouTube/Vimeo, and HTML5 self-hosted videos
 	* **Showcase a collection of YouTube, Vimeo, or MP4/WebM videos** using the video gallery addon element. Quite handy for video tutorial sites, video bloggers, or any studio with a substantial amount of video content.
-	* Tags with support for AJAX-based filtering of videos by tags. 7 different styles for the header with filters.
-	* **Advanced features like pagination, lazy load through a load more button, lazyload with load on scroll (infinite scroll).**
-	* The video opens up in a popup lightbox window when the play on the placeholder image is clicked. Alternatively, you can choose to display inline responsive YouTube, Vimeo, and MP4/WebM videos.
-	* Advanced features like touch/swipe controls, pinch out/in, double-tap, keyboard navigation, full screen, thumbnails, social media sharing, hardware-accelerated animations, direct linking supported with lightbox.
-	* Use custom thumbnail or the YouTube/Vimeo video thumbnail is automatically obtained from the service provider.
-	* **7 header styles and 3 skins for the display of image/video gallery items.**
-	* Built-in cache support for pagination to enhance performance.
 * **YouTube Gallery** that talks to official YouTube API to display videos automatically from YouTube
-	* Display a collection of YouTube videos obtained from YouTube API given a Channel ID, Playlist ID, or a list of Video IDs. Quite handy for video tutorial sites, video bloggers, or any studio with a substantial amount of video content.
-	* **Display videos in YouTube Grid given a Channel ID, Playlist ID, or a list of video IDs**.
-	* Display title, excerpt, channel name/avatar, posted date, duration, views/likes/comments count of YouTube videos, as provided by YouTube API.
-	* **Display YouTube channel header** with information like channel name, banner, avatar, channel stats, and channel description, as provided by YouTube API.
-	* **Load More function for paginated display of YouTube videos.**
 * **Vimeo Gallery** that connects to Vimeo Developer API to display videos automatically from Vimeo.
-	* Showcase a collection of Vimeo videos obtained using Vimeo API given a User ID, Channel ID, Album ID, or a Group ID. Quite handy for video tutorial sites, video bloggers, or any studio with a substantial amount of video content.
-	* **Display videos in Vimeo Grid given a User ID, Channel ID, Album ID, or a Group ID**.
-	* A large number of sort options for the display of videos like alphabetical, posted date, modified date, view count, number of likes, comments number, and video duration.
-	* Display title, excerpt, user account name/avatar, categories, posted date, duration, views/likes/comments count of Vimeo videos, as provided by Vimeo API.
-	* **Display Vimeo user account header** with information like account name, logo, website, location, account stats, and account description, as provided by Vimeo API.
-	* **Load More function for paginated display of Vimeo videos**.
 * **Twitter Grid** - Display your tweets like never before. Support for user timeline, user favorites, tweets by search, and user lists.
-	* 3 beautiful skins for the display of the Twitter grid.
-	* Open images in a lightbox and display tweet text in a lightbox.
-	* Fully responsive with extensive customization options – decide what to display and how to display tweet elements.
-	* Load more via AJAX option.
-	* Built-in cache for tweets to avoid rate limiting of Twitter API.
-	* **Display tweets from user timeline, user favorites, user lists or display tweets by a search term**.
 * **Tabs** - A total of 10 finely designed styles are supported by the tabs function of the plugin. The count would be 20 styles if you consider the dark versions. There is simply no other plugin or theme that supports so many elegant styles for tabs.
-	* Tabs can be of two types – vertical and regular horizontal style tabs.
-    * The tabs are designed to work well in all device resolutions without sacrificing usability. The responsive mode of the tab can be triggered at certain mobile resolution. This mobile resolution value can be customized by the user.
-    * For styles that support icons, the choice of displaying a font icon or an icon image along with the tab title is supported.
-    * Dark version is supported for all 10 styles of tabs for use in dark backgrounds.
     * Direct linking to specific tabs from other pages or external sites
 * **WooCommerce Grid** - Display AJAX powered grid of WooCommerce products. Handy for e-commerce sites.
 	* WooCommerce support for Posts Grid. You can now create an AJAX powered grid of products with all details relevant to products captured as part of the grid – alternate image, product name, sale price, rating, add to cart button, sale indicator, add to wish list, etc.
-    * Two new styles to the Posts Grid exclusive to WooCommerce products.
-    * Can leverage the 7 header styles part of Posts Grid for **AJAX based product filtering**
     * **Quick view option for WooCommerce products.** You can now view all major details of a product in a modal window without leaving the page housing the WooCommerce grid.
     * **Pagination, Load More, and Load on Scroll function for paginated display of WooCommerce products.**
 * **Image Slider**- A responsive slider of images with extensive options to customize the function and presentation of the slider. Comes with a choice of Nivo, Flex, Slick, and lightweight Responsive sliders.
@@ -191,7 +146,6 @@ You can view the change log for the Premium version of the plugin at <a href="ht
 
 1. Install and activate the Elementor page builder.
 2. Unzip the downloaded addons-for-elementor.zip file and upload to the `/wp-content/plugins/` directory or install the Livemesh Addons for Elementor by Livemesh plugin from WordPress repository. Activate the plugin through the 'Plugins' menu in WordPress.
-
 4. For Portfolio element, install and activate the <strong>optional plugin</strong> <a href="https://wordpress.org/plugins/portfolio-post-type/" title="Portfolio Post Type">Portfolio Post Type plugin</a>. The Portfolio addon can be built using custom post type registered by this plugin.
 
 For a more detailed explanation, check out our getting started guide
@@ -261,6 +215,24 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 
 
 
+= 8.5 =
+* Fixed - Icons not being displayed for services, odometer, tabs widgets
+* Fixed - Custom styling for piechart widget restored
+* Fixed - Custom styling for icons like icon color, hover color and size restored
+* Fixed - The carousel option for services, team members, testimonials, clients widgets not working
+
+= 8.4.2 =
+* Fixed - The marquee text widget using the incorrect escape function as reported by review team.
+
+= 8.4.1 =
+* Added - Escaping the style attribute to prevent directory traversal for template files.
+
+= 8.4 =
+* Added - Escaping the data output for posts grid, clients, services, timeline, team members, sliders, carousels, testimonials widgets for enhanced validation of user input.
+* Added - Compatibility with WordPress 6.6 and Elementor 3.22
+
+= 8.3.7 =
+* Added - Escaping the data output for posts grid, posts gridbox slider, posts multislider, posts slider, heading, marquee text, tab slider widgets for enhanced validation of user input.
 
 = 8.3.6 =
 * Added - Escaping the style and template settings for sliders, posts grid, posts block, gallery, testimonials, services, team widgets for enhanced validation of user input.
@@ -282,7 +254,7 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 * Freemius SDK update to 2.6.1
 
 = 8.2.2 =
-* Added - A new template for the testimonials slider widget
+* Added - One new style for the testimonials slider widget
 
 = 8.2.1 =
 * Added - Three new styles for the testimonials slider widget
@@ -741,4 +713,3 @@ Email us at support[at]livemeshthemes.com and we will be happy to assist you.
 
 = 1.0 =
 * Initial release.
-

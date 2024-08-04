@@ -186,10 +186,11 @@
         }
       }
 
-      .lae-icon-wrapper i {
+      .lae-icon-wrapper i, .lae-icon-wrapper svg {
         font-size: 32px;
         vertical-align: middle;
         color: #ccc;
+        fill: #ccc;
       }
     }
   }

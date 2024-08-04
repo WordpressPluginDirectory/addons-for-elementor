@@ -22,8 +22,9 @@
     line-height: 1;
     margin-right: 20px;
   }
-  .lae-icon-wrapper i {
+  .lae-icon-wrapper i, .lae-icon-wrapper svg {
     color: #748085;
+    fill: #748085;
     font-size: 36px;
   }
   .lae-message-title {

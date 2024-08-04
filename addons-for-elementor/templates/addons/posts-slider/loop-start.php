@@ -33,4 +33,4 @@ $slider_settings = [
     <div<?php echo is_rtl() ? ' dir="rtl"' : ''; ?>
             id="lae-posts-slider-<?php echo esc_attr($settings['slider_id']); ?>"
             class="lae-posts-slider lae-container <?php echo 'lae-posts-slider-' . $slider_style; ?>"
-            data-settings='<?php echo wp_json_encode($slider_settings); ?>'>
+            data-settings='<?php echo esc_attr(wp_json_encode($slider_settings)); ?>'>

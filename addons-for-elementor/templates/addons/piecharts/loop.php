@@ -18,12 +18,12 @@ $piechart_settings = [
     'line_width' => esc_attr($settings['line_width']['size']),
 ];
 
-$data_attr = ' data-settings=\'' . wp_json_encode($piechart_settings) . '\'';
+$data_attr = ' data-settings=' . esc_attr(wp_json_encode($piechart_settings)) . '';
 
 
 ?>
 
-<div class="lae-piecharts  lae-piecharts-<?php echo esc_attr($settings['style']);  ?> lae-uber-grid-container <?php echo lae_get_grid_classes($settings); ?> " <?php echo $data_attr; ?>>
+<div class="lae-piecharts  lae-piecharts-<?php echo esc_attr($settings['style']);  ?> lae-uber-grid-container <?php echo lae_get_grid_classes($settings); ?> " <?php echo esc_attr($data_attr); ?>>
 
     <?php foreach ($settings['piecharts'] as $piechart): ?>
 

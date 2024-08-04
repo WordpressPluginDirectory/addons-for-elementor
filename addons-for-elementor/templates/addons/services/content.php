@@ -45,7 +45,7 @@ if ($settings['layout'] == 'grid')
 
 ?>
 
-<div class="lae-service <?php echo $class_attr; ?>" <?php echo $data_attr; ?>>
+<div class="lae-service <?php echo esc_attr($class_attr); ?>" <?php echo esc_attr($data_attr); ?>>
 
     <?php if ($service['icon_type'] == 'icon_image') : ?>
 
