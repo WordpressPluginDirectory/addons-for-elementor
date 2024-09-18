@@ -12,10 +12,10 @@ if (!defined('ABSPATH')) {
 
 
 $piechart_settings = [
-    'bar_color' => esc_attr($settings['bar_color']),
-    'track_color' => esc_attr($settings['track_color']),
-    'chart_size' => esc_attr($settings['chart_size']['size']),
-    'line_width' => esc_attr($settings['line_width']['size']),
+    'bar_color'   => sanitize_hex_color($settings['bar_color']),
+    'track_color' => sanitize_hex_color($settings['track_color']),
+    'chart_size'  => absint($settings['chart_size']['size']),
+    'line_width'  => absint($settings['line_width']['size']),
 ];
 
 $data_attr = ' data-settings=' . esc_attr(wp_json_encode($piechart_settings)) . '';

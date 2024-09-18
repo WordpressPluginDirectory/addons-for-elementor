@@ -8,11 +8,11 @@
  * Author URI: https://livemeshelementor.com
  * License: GPL3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.txt
- * Version: 8.5
+ * Version: 8.5.1
  * Text Domain: livemesh-el-addons
  * Domain Path: languages
- * Elementor tested up to: 3.23.0
- * Elementor Pro tested up to: 3.23.0
+ * Elementor tested up to: 3.24.0
+ * Elementor Pro tested up to: 3.24.0
  *
  * Livemesh Addons for Elementor is distributed under the terms of the GNU
  * General Public License as published by the Free Software Foundation,
@@ -36,7 +36,7 @@ if ( !defined( 'ABSPATH' ) ) {
 // Ensure the free version is deactivated if premium is running
 if ( !function_exists( 'lae_fs' ) ) {
     // Plugin version
-    define( 'LAE_VERSION', '8.5' );
+    define( 'LAE_VERSION', '8.5.1' );
     // Plugin Root File
     define( 'LAE_PLUGIN_FILE', __FILE__ );
     // Plugin Folder Path

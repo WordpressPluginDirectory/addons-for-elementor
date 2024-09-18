@@ -16,8 +16,10 @@ $data_attr = '';
 
 if ($settings['timeline_type'] == 'horizontal') {
 
+    $slider_id = isset($settings['slider_id']) ? preg_replace("/[^a-zA-Z0-9_-]/", "", $settings['slider_id']) : '';
+
     $carousel_settings = [
-        'slider_id' => $settings['slider_id'],
+        'slider_id' => $slider_id,
         'arrows' => ('yes' === $settings['arrows']),
         'dots' => ('yes' === $settings['dots']),
         'autoplay' => ('yes' === $settings['autoplay']),
